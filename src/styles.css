@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.status {
+  font-size: 20px;
+}
+
+.grid {
+  display: block;
+  /* position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0); */
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-width: 1px 0 0 1px;
+}
+.grid div {
+}
+
+.tilerow {
+}
+
+.square {
+  display: table-cell;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-width: 1px 1px 1px 1px;
+}
+
+button {
+  margin-top: 30px;
+  width: 100px;
+  height: 50px;
+}
